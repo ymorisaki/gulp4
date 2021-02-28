@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp"
+    "dev": "gulp",
+    "lint": "eslint . --ext ts --ext tsx --ext js"
   },
   "husky": {
     "hooks": {
@@ -12,7 +13,7 @@
     }
   },
   "lint-staged": {
-    "*.ts": "eslint --fix",
+    "*.ts": "npm run lint",
     "*.scss": "npx stylelint"
   },
   "keywords": [],
