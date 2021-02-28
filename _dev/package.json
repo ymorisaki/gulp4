@@ -14,7 +14,7 @@
     }
   },
   "lint-staged": {
-    "*.ts": "eslint --fix",
+    "*.ts": "npm lint",
     "*.scss": "npx stylelint"
   },
   "keywords": [],
