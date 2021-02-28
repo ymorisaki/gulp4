@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "husky": "echo hello",
+  "husky": "echo hell",
   "keywords": [],
   "author": "",
   "license": "ISC",
