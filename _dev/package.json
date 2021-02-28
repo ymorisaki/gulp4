@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "gulp",
     "lint": "eslint . --ext ts --ext tsx --ext js",
+    "style": "npx stylelint '**/*.scss'",
     "test": "echo hello"
   },
   "husky": {
@@ -15,7 +16,7 @@
   },
   "lint-staged": {
     "*.ts": "npm lint",
-    "*.scss": "npx stylelint"
+    "*.scss": "npm style"
   },
   "keywords": [],
   "author": "",
