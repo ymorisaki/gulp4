@@ -15,7 +15,7 @@
     }
   },
   "lint-staged": {
-    "*.ts": "npm lint",
+    "*.ts": "npm run lint",
     "*.scss": "npm style"
   },
   "keywords": [],
