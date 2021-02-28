@@ -3,7 +3,7 @@ import hoge from './sub/hoge';
 const str = hoge();
 
 function fnc() {
-  return 'hogehogyote';
+  return 'hogehogy';
 }
 fnc();
 
