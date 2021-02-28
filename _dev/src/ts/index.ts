@@ -3,7 +3,7 @@ import hoge from './sub/hoge';
 const str = hoge();
 
 function fnc() {
-  return 'hogeh';
+  return 'hogehsdf';
 }
 
 fnc();
