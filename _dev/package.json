@@ -10,8 +10,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.ts": "eslint --fix",
+    "*.scss": "npx stylelint"
   },
   "keywords": [],
   "author": "",
