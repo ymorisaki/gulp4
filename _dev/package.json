@@ -7,15 +7,6 @@
     "dev": "gulp",
     "lint": "eslint . --ext ts --ext tsx --ext js"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo hello"
-    }
-  },
-  "lint-staged": {
-    "*.ts": "npm run lint",
-    "*.scss": "npx stylelint"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
