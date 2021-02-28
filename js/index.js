@@ -1,0 +1,1 @@
+"use strict";var _hoge=_interopRequireDefault(require("./sub/hoge"));function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}var str=(0,_hoge.default)();function fnc(){return"hoge"}fnc(),document.body.textContent=str;
